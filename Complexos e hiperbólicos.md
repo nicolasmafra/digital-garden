@@ -25,3 +25,17 @@ j \equiv K =
 1 & 0
 \end{bmatrix}
 $$
+
+Note que ambas são matrizes anti-diagonais. Isso garante que reais e imaginários atuem em dimensões diferentes.
+
+E a partir dessas unidades, podemos criar os números complexos e hiperbólicos usando combinações lineares da matriz identidade e uma matriz de unidade imaginária:
+
+$a +bi \equiv aI + bJ$
+$a +bj \equiv aI + bK$
+
+## Magnitude
+
+Perceba que o determinante da matriz complexa é justamente o quadrado da magnitude do número complexo que ela representa.
+
+## Conjugação
+Perceba que a transposta da matriz complexa é justamente o conjugado do número complexo.
