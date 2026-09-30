@@ -9,7 +9,7 @@ $i^2=-1$
 
 Já a unidade hiperbólica, por:
 
-$j^2 = 1, j \ne 1$
+$j^2 = 1, j \notin \mathbb{R}$
 
 ## Definição matricial
 Como as unidades imaginárias não se misturam com as reais durante soma, elas agem como uma segunda dimensão. Assim, também conseguimos definir as unidades imaginárias atravéz de [[Matrizes]], o que é particularmente útil:
