@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+
 ## Unidades imaginárias
 A unidade complexa se caracteriza por:
 

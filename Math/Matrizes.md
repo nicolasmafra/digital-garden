@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+
 Matriz parece ser toda uma estrutura complicada e arbitrária, mas pode ser naturalmente entendida se tratada como função lambda.
 
 Os dados internos da matriz podem ser pensados como uma função que recebe 2 índices e retorna um número:

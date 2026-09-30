@@ -1,3 +1,7 @@
+---
+dg-publish: true
+---
+
 ## Definição aritmética
 Assim como a multiplicação é uma repetição da adição, a potenciação é repetição da multiplicação.
 Por esse motivo, ela possui propriedades distributivas que a caracterizam:

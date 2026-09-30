@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 Em resumo, é o resultado de juntar a [[Exponencial]] com números [[Complexos e hiperbólicos]] e decompor em partes par e ímpar.
 
 Relembrando a decomposição em série da exponencial:
