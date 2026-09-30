@@ -21,6 +21,12 @@ jobs:
       - uses: actions/checkout@v6
         with:
           fetch-depth: 0 # Fetch all history for git info
+      - name: Copy Markdown from main
+        run: |
+          git fetch origin main
+          rm -rf content
+          mkdir -p content
+          git archive origin/main | tar -x -C content
       - uses: actions/setup-node@v6
         with:
           node-version: 24
