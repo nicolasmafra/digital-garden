@@ -26,10 +26,6 @@ jobs:
           ref: quartz-v5
           fetch-depth: 0
 
-      - uses: actions/checkout@v6
-        with:
-          fetch-depth: 0 # Fetch all history for git info
-
       - name: Copy Markdown from main
         run: |
           git fetch origin main
