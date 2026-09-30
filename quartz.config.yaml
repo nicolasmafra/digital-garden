@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: nicolasmafra.github.io/digital-garden-quartz
+  baseUrl: nicolasmafra.github.io/digital-garden
   ignorePatterns:
     - private
     - templates
