@@ -7,8 +7,16 @@ Já a unidade hiperbólica, por:
 
 $j^2 = 1, j \ne 1$
 
-## Matrizes
-Como as unidades imaginárias não se misturam com as reais durante soma, elas agem como uma segunda dimensão. Assim, também conseguimos definir as unidades imaginárias atravéz de matrizes:
+## Definição matricial
+Como as unidades imaginárias não se misturam com as reais durante soma, elas agem como uma segunda dimensão. Assim, também conseguimos definir as unidades imaginárias atravéz de [[Matrizes]], o que é particularmente útil:
+
+$$
+1 \equiv I =
+\begin{bmatrix}
+1 & 0 \\
+0 & 1
+\end{bmatrix}
+$$
 
 $$
 i \equiv J =
@@ -33,9 +41,9 @@ E a partir dessas unidades, podemos criar os números complexos e hiperbólicos 
 $a +bi \equiv aI + bJ$
 $a +bj \equiv aI + bK$
 
-## Magnitude
+### Magnitude
 
 Perceba que o determinante da matriz complexa é justamente o quadrado da magnitude do número complexo que ela representa.
 
-## Conjugação
+### Conjugação
 Perceba que a transposta da matriz complexa é justamente o conjugado do número complexo.

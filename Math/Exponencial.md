@@ -12,20 +12,21 @@ $$
 f(x) = a^x
 $$
 
-## Característica funcional
+## Propriedades funcionais
 A exponencial é a única função com as seguintes propriedades, já observadas na definição aritmética:
 - $f(x+y) = f(x)f(y)$
 - $f(0) = 1$
 
-Onde a segunda propriedade só é necessária para evitar a solução trivial $f(x) = 0$
+Onde a segunda propriedade pode ser deduzida pela primeira se excluir a solução trivial $f(x) = 0$
 
 ## Característica diferencial
-A partir da característica funcional, é fácil usar a definição de derivada para provar que a derivada de uma exponencial é proporcional à própria derivada:
+A partir das propriedades funcionais, é fácil usar a definição de derivada para provar que a derivada de uma exponencial é proporcional à própria derivada:
 
 $$
-f'(x) = c f(x)
+f'(x) = k f(x)
 $$
 
+Mas não só isso: ela é a única que satisfaz. Ou seja, toda função cuja derivada é proporcional a si mesma é uma exponencial.
 ## Base natural
 Existe uma base específica que torna a constante de proporcionalidade igual a 1. Essa base é chamada de base natural, ou número de Euler. Inclusive, muitas vezes o termo "exponencial" é usado especificamente para a exponencial de base natural:
 
@@ -33,7 +34,13 @@ $$
 f(x) = \exp(x) = e^x \iff f'(x) = f(x)
 $$
 
-## Definição por série
+Podemos recuperar as demais exponenciais apenas acrescentando um fator ao lado de x:
+
+$$
+f(x) = e^{xk} \iff f'(x) = kf(x)
+$$
+
+## Decomposição em série
 Sabendo que qualquer derivada enésima da exponencial continua sendo ela mesma, podemos calcular a exponencial usando a série de Taylor:
 
 $$
@@ -44,3 +51,12 @@ E podemos usá-la para calcular a base natural:
 $$
 e=\exp(1)=\sum_{n=0}^{\infty}\frac{1}{n!}
 $$
+
+## Expoente multidimensional
+
+Não são apenas números reais que servem de expoentes. Também é possível usar números [[Complexos e hiperbólicos]] e até [[Matrizes]] arbitrárias, geralmente cíclicas. Basta utilizar a decomposição por série para calcular seu valor. O fator é frequentemente chamado de gerador.
+
+$$
+e^{xG}=\sum_{n=0}^{\infty}\frac{(xG)^n}{n!}
+$$
+
