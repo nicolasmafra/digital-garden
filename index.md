@@ -3,9 +3,9 @@ title: Home
 dg-home: true
 ---
 
-Aqui publico meus pensamentos e ensaios sobre física teórica, [[Matemática/index|matemática]], música e quaisquer outros temas que aprecio.
+Nesse site publico meus pensamentos e ensaios sobre física teórica, [[Matemática/index|matemática]], música e quaisquer outros temas que aprecio.
 
-## Qual o objetivo desse garden?
+## Qual o objetivo desse site?
 
 Conceitos complexos podem ser explicados de muitos jeitos diferentes, alguns mais simples que perdem precisão e relação com conceitos próximos, outros complicados demais para que a intuição e imaginação consigam simular na mente.
 

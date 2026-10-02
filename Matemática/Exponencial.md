@@ -2,6 +2,14 @@
 dg-publish: true
 ---
 
+## Introdução
+A exponencial aparece relacionando vários contextos distintos:
+- Rotações, incluindo as hiperbólicas
+- Números Complexos
+- Equações diferenciais
+
+Por isso, é interessante entender bem de onde vem todo esse relacionamento.
+
 ## Definição aritmética
 Assim como a multiplicação é uma repetição da adição, a potenciação é repetição da multiplicação.
 Por esse motivo, ela possui propriedades distributivas que a caracterizam:
@@ -58,7 +66,7 @@ $$
 
 ## Expoente multidimensional
 
-Não são apenas números reais que servem de expoentes. Também é possível usar números [[Complexos e hiperbólicos]] e até [[Matrizes]] arbitrárias, geralmente cíclicas. Basta utilizar a decomposição por série para calcular seu valor. O fator é frequentemente chamado de gerador.
+Não são apenas números reais que servem de expoentes. Também é possível usar números [[Números imaginários]] e até [[Matrizes]] arbitrárias, geralmente cíclicas. Basta utilizar a decomposição por série para calcular seu valor. O fator é frequentemente chamado de gerador.
 
 $$
 e^{xG}=\sum_{n=0}^{\infty}\frac{(xG)^n}{n!}
