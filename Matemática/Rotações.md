@@ -7,8 +7,13 @@ As rotações, tanto as circulares como as hiperbólicas, aparecem relacionadas 
 
 Ao final, é interessante notar que as funções trigonométricas ou hiperbólicas são apenas os pedaços par e ímpar da rotação em um plano.
 
-## Generalização de algo mais básico
-A rotação mais simples consiste em, dado um par de dimensões, permutar as unidades dessas dimensões de alguma forma que as duas dimensões interajam. A rotação circular (elíptica), por exemplo:
+## Origem da rotação
+Uma transformação rígida é uma isotopia suave e isométrica durante toda a transformação. Essa transformação é afim, significando que pode ser decomposta em translação e uma outra que é linear. Essa outra é justamente a rotação.
+
+Isso é o que se espera fisicamente, mas é possível ter estruturas muito mais simples com as mesmas propriedades essenciais.
+
+## Estrutura mais básica
+A rotação mais simples consiste em, dado um par de dimensões, permutar linearmente as unidades dessas dimensões. A rotação circular (elíptica), por exemplo:
 
 +x, +y, -x, -y
 
@@ -16,10 +21,11 @@ Isso lembra algo? Veja:
 
 +1, +i, -1, -i
 
-É exatamente a potenciação da unidade imaginária. Portanto, a rotação pode ser vista como uma generalização contínua dessa potenciação de [[Números imaginários]].
+É equivalente à potenciação da unidade [[Números imaginários|imaginária]]. Generalizando para incluir a hiperbólica, um eixo vai para outro diferente e volta, podendo ou não voltar com sinal invertido (na hiperbólica o sinal se mantém, resultando em 2 swaps).
 
+Portanto, a rotação pode ser vista como uma generalização dessa estrutura, acrescentando continuidade e preservação de distância.
 ## Características essenciais
-A rotação é uma transformação suave de um vetor, portanto podemos enxergar a variação (derivada) em cada ponto.
+A rotação é uma transformação contínua de um vetor, portanto podemos enxergar a variação (derivada) em cada ponto: um campo vetorial.
 
 Essa variação tem duas propriedades importantes: preserva a magnitude do vetor e o deslocamento em cada ponto é proporcional à magnitude.
 

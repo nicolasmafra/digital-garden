@@ -83,28 +83,25 @@ $a +bi \equiv aI + bJ$
 $a +bj \equiv aI + bK$
 $a +b\epsilon \equiv aI + bE$
 
-Para unificar complexo e hiperbólico, podemos criar um parâmetro s pode ser +1 ou -1:
+Para unificar complexo e hiperbólico, podemos chamar a unidade imaginária de u:
 
 $$
 M = \begin{bmatrix}
-0 & s \\
+0 & u^2 \\
 1 & 0
 \end{bmatrix}
 $$
 ### Determinante
-
 Perceba que o determinante da matriz complexa ou hiperbólicas é justamente o quadrado da magnitude do número complexo que ela representa.
 
-$$ det(aI + bM)=a^2 - sb^2 $$
+$$ det(aI + bM)=a^2 - u^2b^2 $$
 $$ det(aI+bJ)=a^2 + b^2 $$
 $$ det(aI+bK)=a^2 - b^2 $$
 
-### Transposta
+### Transposição
 Perceba que a transposta da matriz complexa é justamente o conjugado do número complexo.
-
-$$ (aI+bM)^t=aI+bM^t=aI+sbM $$
-
 $$ (aI+bJ)^t=aI-bJ $$
+Infelizmente, isso não funciona para os hiperbólicos, já que a transposição não muda a matriz.
 ## Potenciação
 Como o quadrado de um número imaginário é um número real, ao elevar a unidade imaginária a um expoente par sempre será um número real, enquanto expoente ímpar dá número imaginário.
 
@@ -115,12 +112,16 @@ Isso cria uma paridade cíclica interessante que pode ser observada na série de
 ## Conjugação
 Sabendo da paridade entre real e imaginário, podemos decompor um número em parte par e ímpar, sendo necessário apenas uma operação que inverta a parte ímpar (imaginária), chamada conjugação:
 
-$Re(z)+i.Im(z) = z$
-$Re(z)-i.Im(z)=z^*$
+$Re(z)+u.Im(z) = z$
+$Re(z)-u.Im(z)=z^*$
 
 $$
 Re(z) = \frac{z+z^*}{2}
 $$
 $$
-i.Im(z) = \frac{z-z^*}{2}
+u.Im(z) = \frac{z-z^*}{2}
 $$
+
+É interessante que multiplicar um número pelo seu conjugado resulta no quadrado da magnitude também:
+
+$$ z^*z=Re^2(z)-u^2Im^2(z) $$
