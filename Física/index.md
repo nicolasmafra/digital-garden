@@ -23,6 +23,8 @@ O princípio da incerteza pode ser entendido como um limite matemático da duali
 
 As equações de Hamilton evidenciam muito a simetria da dinâmica, reforçando a dualidade entre espaço e momento, os geradores de simetria e a conservação de área que está relacionado ao princípio da incerteza, revelando ainda uma geometria simplética.
 
-A Path Integral de Feyman mostra que o princípio da ação estacionária pode ser consequência de interferência de fase entre múltiplos caminhos quânticos "possíveis", algo já familiar na quântica.
+A Path Integral de Feynman mostra que o princípio da ação estacionária pode ser consequência de interferência de fase entre múltiplos caminhos quânticos "possíveis", algo já familiar na quântica.
 
 A relatividade e a unificação das 4 forças fundamentais usam o mesmo princípio de que uma estrutura maior, em baixas energias, parecem sub estruturas totalmente diferentes.
+
+Os bósons são equivalentes a geradores de grupos de simetria de gauge ao considerar dubletos ou tripletos de partículas com seus coeficientes complexos.
