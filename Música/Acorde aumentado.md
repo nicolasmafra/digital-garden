@@ -1,0 +1,5 @@
+Em tríades, podemos ter acordes maiores  menores, diminutos e aumentados. O diminuto aparece naturalmente no sétimo grau, mas e o aumentado? Uma quinta aumentada é equivalente a uma sexta menor, que só existe no terceiro e sexto graus menores. Na tonalidade de C, seria o Em e o Am.
+
+Mas para ser um acorde aumentado, é necessário ser um acorde maior. O legal é que é super comum emprestar o menor melódico, então o E vem quase de graça. Basta trocar o dominante E7 por E5+ e temos um aumentado funcional! Se bem que, como o B e o C estão presentes na escala, seja mais comum chamar de E7(6b) mesmo. Na prática, a sequência mais comum é a apreciável E5+, E7, Am7.
+
+Mas e o A? Ele aparece como dominante secundário de Dm, sendo muito comum em progressões que começam com osegundo grau menor. Já ouviu a música "descobridor dos sete mares" do Tim Maia? Pois é, aquela progressão maravilhosa é exatamente essa: A5+, A7, Dm. Essa progressão também é comum nas músicas do Tom Jobim (bossa nova). Faça bom uso!
